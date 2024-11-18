@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Halaman Profil SMP Negeri 33 Padang</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200..1000&family=Oswald:wght@200..700&family=Quicksand:wght@300..700&display=swap" rel="stylesheet" />
+  </head>
+
+  <body>
+    <header class="jumbotron">
+      <h1>SMP Negeri 33 Padang</h1>
+      <p>SMP Negeri 33 Padang adalah satu sekolah menengah pertama di kota Padang.</p>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#tentang">Tentang</a></li>
+          <li><a href="#kontak">Kontak Kami</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <div id="content">
+        <article id="home" class="card">
+          <h2>SMP NEGERI 33 PADANG</h2>
+          <img src="assets/gerbangsmp33.jpg" alt="Gerbang SMP Negeri 33 Padang" class="featured-image" />
+          <p>SMP Negeri 33 Padang adalah lembaga pendidikan yang berdedikasi...</p>
+        </article>
+
+        <article id="tentang" class="card">
+          <h2>Tentang</h2>
+          <img src="assets/lapangansmp33.jpg" alt="Lapangan SMP Negeri 33 Padang" class="featured-image" />
+          <p>SMP Negeri 33 Padang adalah salah satu sekolah menengah pertama...</p>
+        </article>
+
+        <article id="kontak" class="card">
+          <h2>Kontak Kami</h2>
+          <form action="submit-form.php" method="post">
+            <div class="form-group">
+              <label for="nama">Masukkan Nama</label>
+              <input type="text" id="nama" name="nama" required />
+            </div>
+            <div class="form-group">
+              <label for="nohp">No HP</label>
+              <input type="text" id="nohp" name="nohp" required />
+            </div>
+            <div class="form-group">
+              <label for="pesan">Pesan</label>
+              <textarea id="pesan" name="pesan" required></textarea>
+            </div>
+            <button type="submit">Kirim</button>
+          </form>
+        </article>
+      </div>
+
+      <aside>
+        <article class="profile card">
+          <header>
+            <h2>SMP Negeri 33 Padang</h2>
+            <figure>
+              <img src="assets/lambangsmp33.jpg" alt="Lambang SMP Negeri 33 Padang" />
+              <figcaption>Lambang SMP Negeri 33 Padang</figcaption>
+            </figure>
+          </header>
+        </article>
+      </aside>
+    </main>
+
+    <footer>
+      <p>Kunjungi media kami:</p>
+      <ul>
+        <li><a href="https://www.youtube.com/channel/UCZpKlQJJ6QZopT1gFC-BG0A">Youtube</a></li>
+        <li><a href="https://www.facebook.com/p/SMP-Negeri-33-Padang-100068540914857/?_rdr">Facebook</a></li>
+        <li><a href="https://www.instagram.com/smpn33.padang/">Instagram</a></li>
+      </ul>
+    </footer>
+  </body>
+</html>
